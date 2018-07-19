@@ -50,6 +50,8 @@ margin-right:60px;
   height: 700px;
   margin-top:50px;
   background:url("../img/last.jpg") no-repeat;
+  background-size:contain;
+  overflow: hidden;
 }
 #testimonial p{
   color:white;
@@ -79,12 +81,25 @@ margin-right:60px;
 }
 #contact{
   color:white;
-  background:url("../img/back.jpg") ;
+  background:url("../img/back.jpg") no-repeat ;
   border: solid black 1px;
+  background-size: cover;
+
 }
 footer{
   color:black;
   font-size: 20px;
   padding: 20px;
   background:rgb(255, 255, 255);
+}
+input{
+  width:70%;
+  border-radius:3px !important;
+}
+textarea{
+  width:50%;
+  border-radius:3px !important;
+}
+body{
+  overflow-x: hidden !important;
 }
